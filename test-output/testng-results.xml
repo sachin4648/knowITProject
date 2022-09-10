@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61993" started-at="2022-09-10T12:48:47 IST" finished-at="2022-09-10T12:49:49 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2eda0940]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="61993" started-at="2022-09-10T12:48:47 IST" finished-at="2022-09-10T12:49:49 IST">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@2eda0940]" name="setUpClass" is-config="true" duration-ms="396" started-at="2022-09-10T12:48:47 IST" finished-at="2022-09-10T12:48:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2eda0940]" name="runScenario" duration-ms="30724" started-at="2022-09-10T12:48:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-10T12:49:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["KnowIT search Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Knowit QSS candidate evaluation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@2eda0940]" name="runScenario" duration-ms="30564" started-at="2022-09-10T12:49:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-10T12:49:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["KnowIT scroll Testing"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Knowit QSS candidate evaluation]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@2eda0940]" name="tearDownClass" is-config="true" duration-ms="268" started-at="2022-09-10T12:49:48 IST" finished-at="2022-09-10T12:49:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
